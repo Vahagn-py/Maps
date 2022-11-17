@@ -24,7 +24,7 @@ if max_val >= threshold:
     top_left = max_loc
     bottom_right = (top_left[0] + air_w, top_left[1] + air_h)
 
-    cv.rectangle(air_img, top_left, bottom_right,
+    cv.rectangle(aia_img, top_left, bottom_right,
                 color=(0, 255, 0), thickness=2, lineType=cv.LINE_4)
 
     cv.imshow('Result', aia_img)
